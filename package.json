@@ -1,0 +1,20 @@
+{
+  "name": "cryptoli",
+  "version": "1.0.0",
+  "description": "A cli to check crypto currency prices",
+  "main": "index.js",
+  "bin": "./bin/cryptoli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "colors": "^1.4.0",
+    "commander": "^6.1.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.3.3"
+  }
+}
